@@ -36,7 +36,7 @@ def parametriza():
         cursor.execute(x)
 
     else:
-        SuaTabela = ("""USE dbMis 
+        SuaTabela = ("""USE SeuDatabase 
 
             DECLARE @DATA AS DATE
             SET @DATA = CAST(GETDATE()-1 AS DATE)
